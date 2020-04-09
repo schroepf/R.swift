@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc       = true
   spec.source             = { :http => "https://github.com/schroepf/R.swift/releases/download/v5.1.0-fixes.622/rswift-622-fix.zip" }
   spec.prepare_command    = <<-CMD
-                             curl -L https://github.com/mac-cain13/R.swift/releases/download/v5.1.0/rswift-5.1.0.zip --output rswift.zip
+                             curl -L https://github.com/schroepf/R.swift/releases/download/v5.1.0-fixes.622/rswift-622-fix.zip --output rswift.zip
                              unzip -o rswift.zip
                            CMD
   spec.swift_version      = "5.1"
